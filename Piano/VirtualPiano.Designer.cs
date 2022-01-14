@@ -1,7 +1,7 @@
 ﻿
 namespace Piano
 {
-    partial class Form1
+    partial class VirtualPiano
     {
         /// <summary>
         ///  Required designer variable.
@@ -64,9 +64,6 @@ namespace Piano
             this.B4 = new System.Windows.Forms.Button();
             this.A4 = new System.Windows.Forms.Button();
             this.G3 = new System.Windows.Forms.Button();
-            this.E6 = new System.Windows.Forms.Button();
-            this.D6 = new System.Windows.Forms.Button();
-            this.C6 = new System.Windows.Forms.Button();
             this.B6 = new System.Windows.Forms.Button();
             this.A6 = new System.Windows.Forms.Button();
             this.G5 = new System.Windows.Forms.Button();
@@ -74,15 +71,6 @@ namespace Piano
             this.E5 = new System.Windows.Forms.Button();
             this.D5 = new System.Windows.Forms.Button();
             this.C5 = new System.Windows.Forms.Button();
-            this.G7 = new System.Windows.Forms.Button();
-            this.F7 = new System.Windows.Forms.Button();
-            this.E7 = new System.Windows.Forms.Button();
-            this.D7 = new System.Windows.Forms.Button();
-            this.C7 = new System.Windows.Forms.Button();
-            this.B7 = new System.Windows.Forms.Button();
-            this.A7 = new System.Windows.Forms.Button();
-            this.G6 = new System.Windows.Forms.Button();
-            this.F6 = new System.Windows.Forms.Button();
             this.Ab2 = new System.Windows.Forms.Button();
             this.Gb1 = new System.Windows.Forms.Button();
             this.Eb1 = new System.Windows.Forms.Button();
@@ -103,14 +91,6 @@ namespace Piano
             this.Gb5 = new System.Windows.Forms.Button();
             this.Eb5 = new System.Windows.Forms.Button();
             this.Db5 = new System.Windows.Forms.Button();
-            this.Bb7 = new System.Windows.Forms.Button();
-            this.Ab7 = new System.Windows.Forms.Button();
-            this.Gb6 = new System.Windows.Forms.Button();
-            this.Eb6 = new System.Windows.Forms.Button();
-            this.Db6 = new System.Windows.Forms.Button();
-            this.Gb7 = new System.Windows.Forms.Button();
-            this.Eb7 = new System.Windows.Forms.Button();
-            this.Db7 = new System.Windows.Forms.Button();
             this.Db2 = new System.Windows.Forms.Button();
             this.C2 = new System.Windows.Forms.Button();
             this.Ab3 = new System.Windows.Forms.Button();
@@ -482,36 +462,6 @@ namespace Piano
             this.G3.UseVisualStyleBackColor = false;
             this.G3.Click += new System.EventHandler(this.keyClicked);
             // 
-            // E6
-            // 
-            this.E6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.E6.Location = new System.Drawing.Point(1237, 49);
-            this.E6.Name = "E6";
-            this.E6.Size = new System.Drawing.Size(30, 377);
-            this.E6.TabIndex = 53;
-            this.E6.UseVisualStyleBackColor = false;
-            this.E6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // D6
-            // 
-            this.D6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.D6.Location = new System.Drawing.Point(1210, 49);
-            this.D6.Name = "D6";
-            this.D6.Size = new System.Drawing.Size(30, 377);
-            this.D6.TabIndex = 52;
-            this.D6.UseVisualStyleBackColor = false;
-            this.D6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // C6
-            // 
-            this.C6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.C6.Location = new System.Drawing.Point(1183, 49);
-            this.C6.Name = "C6";
-            this.C6.Size = new System.Drawing.Size(30, 377);
-            this.C6.TabIndex = 51;
-            this.C6.UseVisualStyleBackColor = false;
-            this.C6.Click += new System.EventHandler(this.keyClicked);
-            // 
             // B6
             // 
             this.B6.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -581,96 +531,6 @@ namespace Piano
             this.C5.TabIndex = 44;
             this.C5.UseVisualStyleBackColor = false;
             this.C5.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // G7
-            // 
-            this.G7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.G7.Location = new System.Drawing.Point(1480, 49);
-            this.G7.Name = "G7";
-            this.G7.Size = new System.Drawing.Size(30, 377);
-            this.G7.TabIndex = 62;
-            this.G7.UseVisualStyleBackColor = false;
-            this.G7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // F7
-            // 
-            this.F7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.F7.Location = new System.Drawing.Point(1453, 49);
-            this.F7.Name = "F7";
-            this.F7.Size = new System.Drawing.Size(30, 377);
-            this.F7.TabIndex = 61;
-            this.F7.UseVisualStyleBackColor = false;
-            this.F7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // E7
-            // 
-            this.E7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.E7.Location = new System.Drawing.Point(1426, 49);
-            this.E7.Name = "E7";
-            this.E7.Size = new System.Drawing.Size(30, 377);
-            this.E7.TabIndex = 60;
-            this.E7.UseVisualStyleBackColor = false;
-            this.E7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // D7
-            // 
-            this.D7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.D7.Location = new System.Drawing.Point(1399, 49);
-            this.D7.Name = "D7";
-            this.D7.Size = new System.Drawing.Size(30, 377);
-            this.D7.TabIndex = 59;
-            this.D7.UseVisualStyleBackColor = false;
-            this.D7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // C7
-            // 
-            this.C7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.C7.Location = new System.Drawing.Point(1372, 49);
-            this.C7.Name = "C7";
-            this.C7.Size = new System.Drawing.Size(30, 377);
-            this.C7.TabIndex = 58;
-            this.C7.UseVisualStyleBackColor = false;
-            this.C7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // B7
-            // 
-            this.B7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.B7.Location = new System.Drawing.Point(1345, 49);
-            this.B7.Name = "B7";
-            this.B7.Size = new System.Drawing.Size(30, 377);
-            this.B7.TabIndex = 57;
-            this.B7.UseVisualStyleBackColor = false;
-            this.B7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // A7
-            // 
-            this.A7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.A7.Location = new System.Drawing.Point(1318, 49);
-            this.A7.Name = "A7";
-            this.A7.Size = new System.Drawing.Size(30, 377);
-            this.A7.TabIndex = 56;
-            this.A7.UseVisualStyleBackColor = false;
-            this.A7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // G6
-            // 
-            this.G6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.G6.Location = new System.Drawing.Point(1291, 49);
-            this.G6.Name = "G6";
-            this.G6.Size = new System.Drawing.Size(30, 377);
-            this.G6.TabIndex = 55;
-            this.G6.UseVisualStyleBackColor = false;
-            this.G6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // F6
-            // 
-            this.F6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.F6.Location = new System.Drawing.Point(1264, 49);
-            this.F6.Name = "F6";
-            this.F6.Size = new System.Drawing.Size(30, 377);
-            this.F6.TabIndex = 54;
-            this.F6.UseVisualStyleBackColor = false;
-            this.F6.Click += new System.EventHandler(this.keyClicked);
             // 
             // Ab2
             // 
@@ -891,94 +751,6 @@ namespace Piano
             this.Db5.UseVisualStyleBackColor = false;
             this.Db5.Click += new System.EventHandler(this.keyClicked);
             // 
-            // Bb7
-            // 
-            this.Bb7.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Bb7.ForeColor = System.Drawing.SystemColors.Control;
-            this.Bb7.Location = new System.Drawing.Point(1336, 33);
-            this.Bb7.Name = "Bb7";
-            this.Bb7.Size = new System.Drawing.Size(21, 216);
-            this.Bb7.TabIndex = 97;
-            this.Bb7.UseVisualStyleBackColor = false;
-            this.Bb7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Ab7
-            // 
-            this.Ab7.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Ab7.ForeColor = System.Drawing.SystemColors.Control;
-            this.Ab7.Location = new System.Drawing.Point(1309, 33);
-            this.Ab7.Name = "Ab7";
-            this.Ab7.Size = new System.Drawing.Size(21, 216);
-            this.Ab7.TabIndex = 96;
-            this.Ab7.UseVisualStyleBackColor = false;
-            this.Ab7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Gb6
-            // 
-            this.Gb6.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Gb6.ForeColor = System.Drawing.SystemColors.Control;
-            this.Gb6.Location = new System.Drawing.Point(1282, 33);
-            this.Gb6.Name = "Gb6";
-            this.Gb6.Size = new System.Drawing.Size(21, 216);
-            this.Gb6.TabIndex = 95;
-            this.Gb6.UseVisualStyleBackColor = false;
-            this.Gb6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Eb6
-            // 
-            this.Eb6.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Eb6.ForeColor = System.Drawing.SystemColors.Control;
-            this.Eb6.Location = new System.Drawing.Point(1228, 33);
-            this.Eb6.Name = "Eb6";
-            this.Eb6.Size = new System.Drawing.Size(21, 216);
-            this.Eb6.TabIndex = 94;
-            this.Eb6.UseVisualStyleBackColor = false;
-            this.Eb6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Db6
-            // 
-            this.Db6.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Db6.ForeColor = System.Drawing.SystemColors.Control;
-            this.Db6.Location = new System.Drawing.Point(1201, 33);
-            this.Db6.Name = "Db6";
-            this.Db6.Size = new System.Drawing.Size(21, 216);
-            this.Db6.TabIndex = 93;
-            this.Db6.UseVisualStyleBackColor = false;
-            this.Db6.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Gb7
-            // 
-            this.Gb7.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Gb7.ForeColor = System.Drawing.SystemColors.Control;
-            this.Gb7.Location = new System.Drawing.Point(1471, 33);
-            this.Gb7.Name = "Gb7";
-            this.Gb7.Size = new System.Drawing.Size(21, 216);
-            this.Gb7.TabIndex = 100;
-            this.Gb7.UseVisualStyleBackColor = false;
-            this.Gb7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Eb7
-            // 
-            this.Eb7.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Eb7.ForeColor = System.Drawing.SystemColors.Control;
-            this.Eb7.Location = new System.Drawing.Point(1417, 33);
-            this.Eb7.Name = "Eb7";
-            this.Eb7.Size = new System.Drawing.Size(21, 216);
-            this.Eb7.TabIndex = 99;
-            this.Eb7.UseVisualStyleBackColor = false;
-            this.Eb7.Click += new System.EventHandler(this.keyClicked);
-            // 
-            // Db7
-            // 
-            this.Db7.BackColor = System.Drawing.SystemColors.Desktop;
-            this.Db7.ForeColor = System.Drawing.SystemColors.Control;
-            this.Db7.Location = new System.Drawing.Point(1390, 33);
-            this.Db7.Name = "Db7";
-            this.Db7.Size = new System.Drawing.Size(21, 216);
-            this.Db7.TabIndex = 98;
-            this.Db7.UseVisualStyleBackColor = false;
-            this.Db7.Click += new System.EventHandler(this.keyClicked);
-            // 
             // Db2
             // 
             this.Db2.BackColor = System.Drawing.SystemColors.Desktop;
@@ -1115,11 +887,11 @@ namespace Piano
             this.Bb3.UseVisualStyleBackColor = false;
             this.Bb3.Click += new System.EventHandler(this.keyClicked);
             // 
-            // Form1
+            // VirtualPiano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 450);
+            this.ClientSize = new System.Drawing.Size(1251, 450);
             this.Controls.Add(this.Bb3);
             this.Controls.Add(this.Db2);
             this.Controls.Add(this.C2);
@@ -1133,14 +905,6 @@ namespace Piano
             this.Controls.Add(this.E2);
             this.Controls.Add(this.D2);
             this.Controls.Add(this.B2);
-            this.Controls.Add(this.Gb7);
-            this.Controls.Add(this.Eb7);
-            this.Controls.Add(this.Db7);
-            this.Controls.Add(this.Bb7);
-            this.Controls.Add(this.Ab7);
-            this.Controls.Add(this.Gb6);
-            this.Controls.Add(this.Eb6);
-            this.Controls.Add(this.Db6);
             this.Controls.Add(this.Bb6);
             this.Controls.Add(this.Ab6);
             this.Controls.Add(this.Gb5);
@@ -1161,18 +925,6 @@ namespace Piano
             this.Controls.Add(this.Ab2);
             this.Controls.Add(this.Gb1);
             this.Controls.Add(this.Eb1);
-            this.Controls.Add(this.G7);
-            this.Controls.Add(this.F7);
-            this.Controls.Add(this.E7);
-            this.Controls.Add(this.D7);
-            this.Controls.Add(this.C7);
-            this.Controls.Add(this.B7);
-            this.Controls.Add(this.A7);
-            this.Controls.Add(this.G6);
-            this.Controls.Add(this.F6);
-            this.Controls.Add(this.E6);
-            this.Controls.Add(this.D6);
-            this.Controls.Add(this.C6);
             this.Controls.Add(this.B6);
             this.Controls.Add(this.A6);
             this.Controls.Add(this.G5);
@@ -1215,8 +967,9 @@ namespace Piano
             this.Controls.Add(this.C0);
             this.Controls.Add(this.B0);
             this.Controls.Add(this.A0);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "VirtualPiano";
+            this.Text = "Piano";
+            this.Load += new System.EventHandler(this.VirtualPiano_Load);
             this.ResumeLayout(false);
 
         }
@@ -1258,9 +1011,6 @@ namespace Piano
         private System.Windows.Forms.Button B4;
         private System.Windows.Forms.Button A4;
         private System.Windows.Forms.Button G3;
-        private System.Windows.Forms.Button E6;
-        private System.Windows.Forms.Button D6;
-        private System.Windows.Forms.Button C6;
         private System.Windows.Forms.Button B6;
         private System.Windows.Forms.Button A6;
         private System.Windows.Forms.Button G5;
@@ -1268,15 +1018,6 @@ namespace Piano
         private System.Windows.Forms.Button E5;
         private System.Windows.Forms.Button D5;
         private System.Windows.Forms.Button C5;
-        private System.Windows.Forms.Button G7;
-        private System.Windows.Forms.Button F7;
-        private System.Windows.Forms.Button E7;
-        private System.Windows.Forms.Button D7;
-        private System.Windows.Forms.Button C7;
-        private System.Windows.Forms.Button B7;
-        private System.Windows.Forms.Button A7;
-        private System.Windows.Forms.Button G6;
-        private System.Windows.Forms.Button F6;
         private System.Windows.Forms.Button Ab2;
         private System.Windows.Forms.Button Gb1;
         private System.Windows.Forms.Button Eb1;
@@ -1297,14 +1038,6 @@ namespace Piano
         private System.Windows.Forms.Button Gb5;
         private System.Windows.Forms.Button Eb5;
         private System.Windows.Forms.Button Db5;
-        private System.Windows.Forms.Button Bb7;
-        private System.Windows.Forms.Button Ab7;
-        private System.Windows.Forms.Button Gb6;
-        private System.Windows.Forms.Button Eb6;
-        private System.Windows.Forms.Button Db6;
-        private System.Windows.Forms.Button Gb7;
-        private System.Windows.Forms.Button Eb7;
-        private System.Windows.Forms.Button Db7;
         private System.Windows.Forms.Button Db2;
         private System.Windows.Forms.Button C2;
         private System.Windows.Forms.Button Ab3;

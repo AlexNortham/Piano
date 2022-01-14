@@ -11,10 +11,10 @@ using System.Threading;
 
 namespace Piano
 {
-    public partial class Form1 : Form
+    public partial class VirtualPiano : Form
     {
         private string soundFileLocation;
-        public Form1()
+        public VirtualPiano()
         {
             InitializeComponent();
         }
@@ -42,6 +42,11 @@ namespace Piano
         {
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(soundFileLocation);
             player.Play();
+        }
+
+        private void VirtualPiano_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
